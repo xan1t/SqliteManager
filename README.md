@@ -66,3 +66,4 @@ dotnet run
 - It is not intended to replace full database management systems.
 - Works only on Windows due to WPF dependency.
 - For deployment, it is recommended to use the published single-file executable.
+- You can find ready to use .exe file in realises
