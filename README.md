@@ -62,7 +62,7 @@ dotnet run
 ```
 
 ### Notes
-- The application is designed for learning and simple database management tasks.
+- The application was created during the learning process of C#
 - It is not intended to replace full database management systems.
 - Works only on Windows due to WPF dependency.
 - For deployment, it is recommended to use the published single-file executable.
