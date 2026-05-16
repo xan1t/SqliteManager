@@ -22,9 +22,9 @@ namespace SqliteManager
             InitializeComponent();
         }
 
-        // =========================
+        
         // СОЗДАНИЕ БД
-        // =========================
+        
 
         private void CreateDb_Click(object sender, RoutedEventArgs e)
         {
@@ -51,9 +51,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // ОТКРЫТИЕ БД
-        // =========================
+        
 
         private void OpenDb_Click(object sender, RoutedEventArgs e)
         {
@@ -79,9 +79,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // ЗАГРУЗКА ТАБЛИЦ
-        // =========================
+        
 
         private void LoadTable(string tableName)
         {
@@ -143,9 +143,9 @@ namespace SqliteManager
 
    
 
-        // =========================
+        
         // ВЫБОР ТАБЛИЦЫ
-        // =========================
+        
 
 
         private void TablesCombo_SelectionChanged(
@@ -158,9 +158,9 @@ namespace SqliteManager
             }
         }        
 
-        // =========================
+        
         // ПЕРЕЗАГРУЗКА ТАБЛИЦЫ
-        // =========================
+        
 
         private void ReloadTable()
         {
@@ -192,9 +192,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // ВЫПОЛНЕНИЕ SQL
-        // =========================
+        
 
         private void ExecuteSql_Click(
             object sender,
@@ -248,9 +248,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // ОЧИСТКА SQL
-        // =========================
+        
 
         private void ClearSql_Click(
             object sender,
@@ -259,9 +259,9 @@ namespace SqliteManager
             SqlEditor.Text = "";
         }
 
-        // =========================
+        
         // ПОИСК
-        // =========================
+        
 
         private void Search_Click(
             object sender,
@@ -296,9 +296,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // СБРОС ФИЛЬТРА
-        // =========================
+        
 
         private void ClearFilter_Click(
             object sender,
@@ -312,9 +312,9 @@ namespace SqliteManager
             SearchBox.Text = "";
         }
 
-        // =========================
+        
         // ДОБАВЛЕНИЕ СТРОКИ
-        // =========================
+        
 
         private void AddRow_Click(
             object sender,
@@ -326,9 +326,9 @@ namespace SqliteManager
             table.Rows.Add(table.NewRow());
         }
 
-        // =========================
+        
         // УДАЛЕНИЕ СТРОКИ
-        // =========================
+        
 
         private void DeleteRow_Click(
             object sender,
@@ -340,9 +340,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // СОХРАНЕНИЕ
-        // =========================
+        
 
         private void SaveChanges_Click(
             object sender,
@@ -365,9 +365,9 @@ namespace SqliteManager
                 SqlErrorText.Text = ex.Message;
             }
         }
-        // =========================
+        
         // СОЗДАНИЕ ТАБЛИЦЫ
-        // =========================
+        
 
         private void CreateTable_Click(
             object sender,
@@ -406,9 +406,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // ДОБАВЛЕНИЕ КОЛОНКИ
-        // =========================
+        
 
         private void AddColumn_Click(
             object sender,
@@ -447,9 +447,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // ПЕРЕИМЕНОВАНИЕ КОЛОНКИ
-        // =========================
+        
 
         private void RenameColumn_Click(
             object sender,
@@ -459,9 +459,9 @@ namespace SqliteManager
                 "SQLite ограниченно поддерживает переименование колонок.");
         }
 
-        // =========================
+        
         // УДАЛЕНИЕ КОЛОНКИ
-        // =========================
+        
 
         private void DeleteColumn_Click(
             object sender,
@@ -471,9 +471,9 @@ namespace SqliteManager
                 "SQLite ограниченно поддерживает удаление колонок.");
         }
 
-        // =========================
+        
         // ПКМ ПО ТАБЛИЦЕ
-        // =========================
+        
 
         private void DataGridMain_MouseRightButtonDown(
             object sender,
@@ -543,9 +543,9 @@ namespace SqliteManager
             }
         }
 
-        // =========================
+        
         // СВЯЗИ
-        // =========================
+        
 
         private void ShowRelations_Click(
             object sender,
@@ -555,9 +555,9 @@ namespace SqliteManager
                 "Редактор связей будет добавлен позже.");
         }
 
-        // =========================
+        
         // ОБНОВЛЕНИЕ
-        // =========================
+        
 
         private void ReloadTable_Click(
             object sender,
