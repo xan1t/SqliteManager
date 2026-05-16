@@ -46,17 +46,23 @@ CREATE TABLE data (
 );
 
 ```
-Running the Project
-Requirements
-.NET SDK 8 or 9
-Windows OS (WPF requirement)
-Run in Development Mode
+## Running the Project
+
+### Requirements
+
+- .NET SDK 8 or 9
+- Windows OS (WPF is Windows-only)
+
+---
+
+### Run in Development Mode
+
+```bash
 dotnet run
-Build Project
-dotnet build
-Publish Executable
-dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
-Notes
-This project is intended for learning and prototyping purposes
-Not a replacement for full database management systems like DB Browser for SQLite or SQL Server Management Studio
-Works only on Windows due to WPF dependency
+```
+
+### Notes
+-The application is designed for learning and simple database management tasks.
+-It is not intended to replace full database management systems.
+-Works only on Windows due to WPF dependency.
+-For deployment, it is recommended to use the published single-file executable.
